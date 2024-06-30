@@ -1,5 +1,19 @@
 # Workspace for Robotics Summer School (RSS)
 
+Kev modified
+
+# ROS_MASTER_URI=http://10.0.4.5:11311/
+
+- nano ~/.zshrc
+- wssetup
+- export ROS_HOSTNAME=localhost
+
+# docker ps (take name)
+# docker cp C:\Users\kevin\Downloads\[<.bag>] [<NAME-OF-CONTAINER>]:/workspaces/rss_workspace/
+
+docker cp ./2023-06-16-11-33-01_smb263.bag zealous_burnell:/
+
+
 [![build-smb-base-image](https://github.com/ETHZ-RobotX/rss_workspace/actions/workflows/build_push.yml/badge.svg?branch=main)](https://github.com/ETHZ-RobotX/rss_workspace/actions/workflows/build_push.yml)  [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/ETHZ-RobotX/rss_workspace)
 
 

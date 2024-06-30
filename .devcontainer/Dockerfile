@@ -7,6 +7,8 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
     x11-apps \
     usbutils \
+    htop \
+    terminator \
     && rm -rf /var/lib/apt/lists/*
 
 ARG VNC_RESOLUTION

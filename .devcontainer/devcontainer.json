@@ -17,7 +17,7 @@
 	],
 	"privileged": true,
 	"containerEnv": {
-		"DISPLAY": "${localEnv:DISPLAY}"
+		"DISPLAY": ":1"
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {

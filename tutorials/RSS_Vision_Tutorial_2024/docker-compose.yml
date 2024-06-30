@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  vision_notebook:
+    image: perfrivik/vision_notebook_image:latest
+    ports:
+      - "8888:8888"
+      - "2222:22"
+    volumes:
+      - ./vision_notebook:/workspace/vision_notebook
